@@ -14,10 +14,10 @@
       <!-- Display Section -->
       <div class="h-14 bg-zinc-800 flex items-center justify-end">
         <!-- <h1 class="text-3xl text-white mr-4">0</h1> -->
-        <input type="text" class="w-full h-full bg-zinc-800 text-3xl text-white text-right pr-4" value="0" disabled>
+        <input type="text" id="display" class="w-full h-full bg-zinc-800 text-3xl text-white text-right pr-4" value="0" disabled>
       </div>
       <!-- Buttons Section -->
-      <div class="grid grid-cols-4 gap-4 p-4 container w-full">
+      <div class="button grid grid-cols-4 gap-4 p-4 container w-full">
         <!-- "+" Button -->
         <div class="rounded-md text-blue-500 text-2xl w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
           <button type="button" class="container h-full w-full operator" value="+">+</button>
@@ -89,15 +89,13 @@
 
         <!-- "=" Button -->
         <div class="row-start-2 row-end-6 col-start-4 rounded-md text-white w-full h-full border-solid border-1 border-slate-300 bg-blue-500 hover:bg-blue-600">
-          <button type="button" class="container h-full w-full">=</button>
+          <button type="button" class="container h-full w-full calculate">=</button>
         </div>
       <!-- Button Section End -->
-
-        <script src="./script.js"></script>
-
       </div>
     </div>
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
