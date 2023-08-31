@@ -13,77 +13,83 @@
     <div class="w-92 h-88 border-solid border-1 border-slate-300">
       <!-- Display Section -->
       <div class="h-14 bg-zinc-800 flex items-center justify-end">
-        <h1 class="text-3xl text-white mr-4">0</h1>
+        <!-- <h1 class="text-3xl text-white mr-4">0</h1> -->
+        <input type="text" class="w-full h-full bg-zinc-800 text-3xl text-white text-right pr-4" value="0" disabled>
       </div>
       <!-- Buttons Section -->
       <div class="grid grid-cols-4 gap-4 p-4 container w-full">
         <!-- "+" Button -->
-        <div class="rounded-md text-blue-500 w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">+</button>
+        <div class="rounded-md text-blue-500 text-2xl w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full operator" value="+">+</button>
         </div>
         <!-- "-" Button -->
-        <div class="rounded-md text-blue-500 w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">-</button>
+        <div class="rounded-md text-blue-500 text-2xl w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full operator" value="-">-</button>
         </div>
         <!-- x Button -->
-        <div class="rounded-md text-blue-500 w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">x</button>
+        <div class="rounded-md text-blue-500 text-2xl w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full operator" value="*">&times;</button>
         </div>
         <!-- / Button -->
-        <div class="rounded-md text-blue-500 w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">/</button>
+        <div class="rounded-md text-blue-500 text-2xl w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full operator" value="/">&divide;</button>
         </div>
+
         <!-- 7 Button -->
-        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">7</button>
+        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full" value="">7</button>
         </div>
         <!-- 8 Button -->
-        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">8</button>
+        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full" value="8">8</button>
         </div>
         <!-- 9 Button -->
-        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">9</button>
+        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full" value="9">9</button>
         </div>
-        <!-- "=" Button -->
-        <div class="row-start-2 row-end-6 col-start-4 rounded-md text-white w-full h-full border-solid border-1 border-slate-300 bg-blue-400">
-          <button class="container h-full">=</button>
-        </div>
+        
         <!-- "4" Button -->
-        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">4</button>
+        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full" value="4">4</button>
         </div>
         <!-- "5" Button -->
-        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">5</button>
+        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full" value="5">5</button>
         </div>
         <!-- "6" Button -->
-        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">6</button>
+        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full" value="6">6</button>
         </div>
+
         <!-- "1" Button -->
-        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">1</button>
+        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full" value="1">1</button>
         </div>
         <!-- "2" Button -->
-        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">2</button>
+        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full" value="2">2</button>
         </div>
         <!-- "3" Button -->
-        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">3</button>
+        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full" value="3">3</button>
         </div>
+        
         <!-- "0" Button -->
-        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">0</button>
+        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full" value="0">0</button>
         </div>
         <!-- "." Button -->
-        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">.</button>
+        <div class="rounded-md text-black w-full h-10 border-solid border-1 border-slate-300 hover:bg-slate-200">
+          <button type="button" class="container h-full w-full decimal" value=".">.</button>
         </div>
         <!-- AC Button -->
-        <div class="rounded-md text-white bg-red-400 w-full h-10 border-solid border-1 border-slate-300">
-          <button class="container h-full">AC</button>
+        <div class="rounded-md text-white bg-red-500 hover:bg-red-600 w-full h-10 border-solid border-1 border-slate-300">
+          <button type="button" class="container h-full w-full clear" value="clear">AC</button>
+        </div>
+
+        <!-- "=" Button -->
+        <div class="row-start-2 row-end-6 col-start-4 rounded-md text-white w-full h-full border-solid border-1 border-slate-300 bg-blue-500 hover:bg-blue-600">
+          <button type="button" class="container h-full w-full">=</button>
         </div>
       <!-- Button Section End -->
 
